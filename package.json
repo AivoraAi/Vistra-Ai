@@ -1,0 +1,16 @@
+{
+  "name": "ai-blog-automation",
+  "version": "2.0.0",
+  "description": "Paperclip AI → Blog → GitHub Pages automation",
+  "main": "scripts/generate-blog.js",
+  "scripts": {
+    "generate": "node scripts/generate-blog.js",
+    "test-ai":  "node scripts/test-ai-connection.js",
+    "setup":    "node scripts/setup.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": ["ai", "blog", "automation", "github-pages"],
+  "license": "MIT"
+}
